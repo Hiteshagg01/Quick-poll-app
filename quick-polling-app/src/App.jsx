@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css"
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://quick-poll-app-z1q5.onrender.com";
 
 const App = () => {
     const [polls, setPolls] = useState([]);
